@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  min-height: 100vh;
+}
